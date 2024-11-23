@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".FoodMainActivity">
 
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/fragmentContainer"
+    <FrameLayout
+        android:id="@+id/fragmentContainerFood"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
